@@ -1,4 +1,4 @@
-import 'package:apps/utils/importer.dart';
+import 'package:salesman/utils/importer.dart';
 
 class LoginScreen extends StatefulWidget {
   static const route = '/login';

@@ -1,4 +1,4 @@
-import 'package:apps/utils/importer.dart';
+import 'package:salesman/utils/importer.dart';
 
 TextStyle get robotoLight300 {
   return const TextStyle(

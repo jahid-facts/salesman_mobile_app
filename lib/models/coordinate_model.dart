@@ -1,4 +1,4 @@
-import 'package:apps/utils/importer.dart';
+import 'package:salesman/utils/importer.dart';
 
 class Coordinate extends Equatable {
   final double lat;

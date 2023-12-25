@@ -1,4 +1,4 @@
-import 'package:apps/utils/importer.dart';
+import 'package:salesman/utils/importer.dart';
 
 final navigatorKey = GlobalKey<NavigatorState>();
 
@@ -41,22 +41,6 @@ void launchWaze(Coordinate cor) async {
     // window.open('https://www.waze.com/ul?ll=${cor.lat},${cor.lon}&navigate=yes',
     //     'Waze');
   }
-}
-
-Future<String?> getDeviceId() async {
-  try {
-    final DeviceInfoPlugin device = DeviceInfoPlugin();
-    if (Platform.isAndroid) {
-      AndroidDeviceInfo androidInfo = await device.androidInfo;
-      return androidInfo.id;
-    } else if (Platform.isIOS) {
-      IosDeviceInfo iosInfo = await device.iosInfo;
-      return iosInfo.identifierForVendor;
-    }
-  } catch (e) {
-    throw Exception(e);
-  }
-  return null;
 }
 
 void showToastMessage(BuildContext context, String msg) {

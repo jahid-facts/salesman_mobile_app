@@ -1,4 +1,4 @@
-import 'package:apps/utils/importer.dart';
+import 'package:salesman/utils/importer.dart';
 
 class Shop extends Equatable {
   final String? id;

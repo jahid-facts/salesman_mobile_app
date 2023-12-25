@@ -1,7 +1,7 @@
-import 'package:apps/utils/importer.dart';
+import 'package:salesman/utils/importer.dart';
 
-const String dbUrl = 'https://api-salesmen.ipsitahost.com';
-
+// const String dbUrl = 'http://salesman.ipsitacomputersltd.com';
+const String dbUrl = "https://api-salesmen.ipsitahost.com";
 // this will be used as notification channel id
 const notificationChannelId = 'my_foreground';
 const notificationChannelName = 'MY FOREGROUND SERVICE';
